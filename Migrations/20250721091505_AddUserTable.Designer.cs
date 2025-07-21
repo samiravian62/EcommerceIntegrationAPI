@@ -4,6 +4,7 @@ using EcommerceIntegrationAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EcommerceIntegrationAPI.Migrations
 {
     [DbContext(typeof(EcommerceDbContext))]
-    partial class EcommerceDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250721091505_AddUserTable")]
+    partial class AddUserTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -191,7 +194,7 @@ namespace EcommerceIntegrationAPI.Migrations
                         new
                         {
                             Id = 1,
-                            PasswordHash = "$2a$11$wWrc16nFQvW3V4svB/EqEuCQVwVpnh3s1xHjS3OCgGvnxplPMslyW\r\n",
+                            PasswordHash = "$2a$11$MQsIq0gzyFQDHc.hyKniYukJqNzwhMpX21rudIXuLIOINBtJmtRle",
                             Role = "Admin",
                             Username = "admin"
                         });

@@ -16,6 +16,8 @@ namespace EcommerceIntegrationAPI.Data
         public DbSet<Order> Orders { get; set; } = null!;
         public DbSet<OrderItem> OrderItems { get; set; } = null!;
 
+        public DbSet<User> Users { get; set; } = null!;
+
         public DbSet<EcommerceOrder> EcommerceOrders { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -34,6 +36,15 @@ namespace EcommerceIntegrationAPI.Data
             modelBuilder.Entity<EcommerceOrder>().Property(e => e.Platform).IsRequired();
             modelBuilder.Entity<EcommerceOrder>().Property(e => e.PlatformOrderId).IsRequired();
             modelBuilder.Entity<EcommerceOrder>().Property(e => e.CreatedAt).IsRequired();
+
+            modelBuilder.Entity<User>().HasData(new User
+            {
+                Id = 1,
+                Username = "admin",
+                PasswordHash = "$2a$11$wWrc16nFQvW3V4svB/EqEuCQVwVpnh3s1xHjS3OCgGvnxplPMslyW\r\n",
+                Role = "Admin"
+            });
+
         }
 
 

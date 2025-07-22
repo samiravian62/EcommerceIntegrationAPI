@@ -1,4 +1,4 @@
-name: .NET 8 Build and Test
+name: Ecommerece CI
 
 on:
   push:
@@ -12,19 +12,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Setup .NET 8 SDK
+    - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '8.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore EcommerceIntegrationAPI.sln
 
     - name: Build
-      run: dotnet build --no-restore --configuration Release
+      run: dotnet build EcommerceIntegrationAPI.sln --no-restore
 
-    - name: Run tests
-      run: dotnet test --no-build --verbosity normal
+    - name: Run Tests
+      run: dotnet test EcommerceIntegrationAPI.sln --no-build --verbosity normal

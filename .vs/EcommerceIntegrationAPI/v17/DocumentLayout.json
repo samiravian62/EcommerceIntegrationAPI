@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Ecommmerce_Middleware\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88CDAEA0-22EC-49D7-8FF7-BD9BCDE45579}|EcommerceIntegrationAPI\\EcommerceIntegrationAPI.csproj|d:\\ecommmerce_middleware\\ecommerceintegrationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CDAEA0-22EC-49D7-8FF7-BD9BCDE45579}|EcommerceIntegrationAPI\\EcommerceIntegrationAPI.csproj|solutionrelative:ecommerceintegrationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{343A7146-0070-40D5-981B-4C7DBCF0E57D}|EcommerceIntegrationAPI.Tests\\EcommerceIntegrationAPI.Tests.csproj|d:\\ecommmerce_middleware\\ecommerceintegrationapi.tests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{343A7146-0070-40D5-981B-4C7DBCF0E57D}|EcommerceIntegrationAPI.Tests\\EcommerceIntegrationAPI.Tests.csproj|solutionrelative:ecommerceintegrationapi.tests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -106,15 +110,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Program.cs",
+              "ToolTip": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Program.cs",
+              "RelativeToolTip": "EcommerceIntegrationAPI\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T21:47:55.596Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthControllerTests.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI.Tests\\Controllers\\AuthControllerTests.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI.Tests\\Controllers\\AuthControllerTests.cs",
@@ -126,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI.Tests\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI.Tests\\Services\\AuthService.cs",
@@ -137,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AuthServiceTests.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI.Tests\\AuthServiceTests.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI.Tests\\AuthServiceTests.cs",
@@ -148,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Controllers\\AuthController.cs",
@@ -159,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -170,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI.Tests\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI.Tests\\Services\\TokenService.cs",
@@ -181,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Models\\LoginModel.cs",
@@ -192,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Models\\User.cs",
@@ -203,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "EcommerceIntegrationAPI.Tests.csproj",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI.Tests\\EcommerceIntegrationAPI.Tests.csproj",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI.Tests\\EcommerceIntegrationAPI.Tests.csproj",
@@ -214,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AuthServices.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Services\\AuthServices.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Services\\AuthServices.cs",
@@ -225,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Services\\TokenService.cs",
@@ -236,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Services\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Services\\Interfaces\\ITokenService.cs",
@@ -247,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Services\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Services\\Interfaces\\IAuthService.cs",
@@ -258,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "EcommerceOrdersController.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Controllers\\EcommerceOrdersController.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Controllers\\EcommerceOrdersController.cs",
@@ -269,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "EcommerceDbContext.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Data\\EcommerceDbContext.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Data\\EcommerceDbContext.cs",
@@ -280,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -291,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -302,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "20250721091505_AddUserTable.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Migrations\\20250721091505_AddUserTable.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Migrations\\20250721091505_AddUserTable.cs",
@@ -313,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "README.md",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -324,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "20250720230025_InitialCreate.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Migrations\\20250720230025_InitialCreate.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Migrations\\20250720230025_InitialCreate.cs",
@@ -335,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "EcommerceOrders.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Models\\EcommerceOrders.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Models\\EcommerceOrders.cs",
@@ -346,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Models\\OrderItem.cs",
@@ -357,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Models\\Order.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Models\\Order.cs",
@@ -368,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Ecommmerce_Middleware\\EcommerceIntegrationAPI\\Models\\Product.cs",
               "RelativeDocumentMoniker": "EcommerceIntegrationAPI\\Models\\Product.cs",
